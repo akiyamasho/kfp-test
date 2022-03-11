@@ -1,0 +1,2 @@
+kfp==1.6.*
+google_cloud_pipeline_components==0.1.*

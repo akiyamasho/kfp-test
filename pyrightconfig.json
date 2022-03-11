@@ -1,0 +1,23 @@
+{
+  "include": [
+    "src",
+    "tests",
+    "migration"
+  ],
+
+  "exclude": [
+    "**/node_modules",
+    "**/.ipynb_checkpoints",
+    "**/__pycache__",
+    "**/.vscode",
+    "**/.pytest_cache",
+  ],
+
+  "stubPath": "src/stubs",
+  "venv": "env",
+
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+
+  "pythonVersion": "3.9",
+}
