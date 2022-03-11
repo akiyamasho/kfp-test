@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+ENDPOINT=$1
 SRC_FOLDER=src
 
 if [ "$1" == "--rebuild" ]
@@ -13,7 +14,6 @@ OUTPUT_FILENAME=$SRC_FOLDER/output.tar.gz
 dsl-compile --py $SRC_FOLDER/pipeline.py --output $OUTPUT_FILENAME
 
 # Clear current and upload
-ENDPOINT=$1
 PIPELINE_NAME="Sho Dev Test"
 PIPELINE_DESC="Test description"
 
